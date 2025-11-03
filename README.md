@@ -1,6 +1,6 @@
 # Robotik-2
 
-requiements:
+requirements:
 
 NAO SDK / Python-API :
 
