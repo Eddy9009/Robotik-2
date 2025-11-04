@@ -1,5 +1,11 @@
 # Robotik-2
-#h
+
+#######################################################
+
+##Chris hast du den Kuchen schon wieder vergESSEN????##
+
+#######################################################
+
 requirements:
 
 NAO SDK / Python-API :
