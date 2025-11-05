@@ -10,7 +10,20 @@ requirements:
 
 NAO SDK / Python-API :
 
-pip install naoqi
+Visual-Studio-Code :
+
+py27 -m pip install virtualenv
+
+py27 -m  virtualenv Projekt
+
+Powershell:
+
+$env:PYTHONPATH += ";C:\Users\Seminar\Desktop\Robotik-2\SDK\lib"
+
+test:
+
+echo $env:PYTHONPATH
+
 
 Check and example:
 
@@ -23,6 +36,7 @@ port = 9559
 tts = ALProxy("ALTextToSpeech", robotIP, port)
 
 tts.say("Hallo, ich bin NAO!")
+
 
 Pygame:
 
