@@ -44,7 +44,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='C:\Users\Seminar\Desktop\Robotik-2\Projekt'
+VIRTUAL_ENV='D:\Chris Projekte\Github\Robotik-2\Projekt'
 if ([ "$OSTYPE" = "cygwin" ] || [ "$OSTYPE" = "msys" ]) && $(command -v cygpath &> /dev/null) ; then
     VIRTUAL_ENV=$(cygpath -u "$VIRTUAL_ENV")
 fi
@@ -81,5 +81,3 @@ pydoc () {
 # commands. Without forgetting past commands the $PATH changes
 # we made may not be respected
 hash -r 2>/dev/null
-
-set PYTHONPATH=%PYTHONPATH%;C:\Users\Seminar\Desktop\Robotik-2\SDK\lib
