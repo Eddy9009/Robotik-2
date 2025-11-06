@@ -9,7 +9,7 @@ def-env activate-virtualenv [] {
     }
 
     let is-windows = ((sys).host.name | str downcase) == 'windows'
-    let virtual-env = 'C:\Robotik-2\Projekt'
+    let virtual-env = 'D:\Chris Projekte\Github\Robotik-2\Projekt'
     let bin = 'Scripts'
     let path-sep = ';'
     let path-name = if $is-windows {
@@ -89,4 +89,4 @@ def-env activate-virtualenv [] {
 activate-virtualenv
 
 alias pydoc = python -m pydoc
-alias deactivate = source 'C:\Robotik-2\Projekt\Scripts\deactivate.nu'
+alias deactivate = source 'D:\Chris Projekte\Github\Robotik-2\Projekt\Scripts\deactivate.nu'
